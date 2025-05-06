@@ -13,11 +13,13 @@ import React from 'react'
 // import CSS from './assets/component/CSS.jsx';
 // import JS from './assets/component/JS'
 // import Cppp from './assets/component/Cppp'
-// import Navbar from './assets/component/Navbar.jsx'
+import Navbar from './assets/component/Navbar.jsx'
 // import One from './assets/component/One.jsx'
 // import Mern from './assets/component/Mern.jsx'
 // import Afteriv from './assets/component/Afteriv.jsx'
-import FigmaEditor from './assets/component/FigmaEditor.jsx'
+// import FigmaEditor from './assets/component/FigmaEditor.jsx'
+import Assesment from './assets/component/Assesment'
+// import Assesment2 from './assets/component/assesment2.jsx'
 
 
 
@@ -25,13 +27,15 @@ function App(){
   return(
 
    <>
-   <FigmaEditor/>
-   
+   {/* <FigmaEditor/> */}
+   <Navbar/>
+   {/* <Assesment2/> */}
+   <Assesment/>
    {/* <Afteriv/> */}
 
     {/* // <First/> */}
 
-    {/* <Navbar/> */}
+  
     {/* <Mern/> */}
     {/* <JS/> */}
     {/* <Html/> */}
