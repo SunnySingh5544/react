@@ -6,18 +6,18 @@ import { BiFullscreen } from "react-icons/bi";
 function Interview() {
   return (
     <div className="flex flex-col justify-center items-center p-4">
-
      
-      <div className="h-50 w-full sm:w-64  lg:w-300 h-120 bg-blue-100 border ml-2 mt-2 rounded-lg flex justify-end items-end p-4">
-        <div className=" w-20 h-20 sm:w-40 sm:h-40 bg-white rounded flex justify-center items-center">
-          user
-        </div>
-      </div>
-
+      <div className="fixed inset-0 bg-blue-100 border rounded-lg p-4">
      
-      <div className="w-full sm:w-64 md:w-80 lg:w-300   rounded-lg shadow-lg p-2 ml-2">
-        <div className=" h-16 w-full mb-2 rounded-lg py-1 flex justify-center items-center">
-          <div className="flex space-x-2 justify-center items-center">
+        <div className="relative w-full h-full">
+          
+   
+          <div className="absolute bottom-4 right-4 w-20 h-20 sm:w-40 sm:h-40 bg-white rounded flex justify-center items-center shadow">
+            user
+          </div>
+
+
+          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-opacity-200 h-16 px-4 rounded-lg flex items-center space-x-2  gap-4">
             <div className="bg-red-700 w-10 h-10 p-2 flex justify-center items-center rounded-full">
               <SlCallEnd className="text-white" />
             </div>
@@ -33,9 +33,9 @@ function Interview() {
           </div>
         </div>
       </div>
-
     </div>
   );
 }
 
 export default Interview;
+``
